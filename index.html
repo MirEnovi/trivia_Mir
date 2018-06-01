@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8" />
+    <title>TRIVIA</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Sunflower:300" rel="stylesheet">
+    
+</head>
+<body>
+    <header> <!--separamos en lo que queremos que apareca 
+        en la parte de arriba de nuestra web-->
+        <h1>¡¡¡TRIVIA!!!</h1>
+        <h2>BIENVENIDO <span id="nombre"></span></h2> <!-- se pone un id
+             en un span para poner el nombre del usiario-->
+    </header>
+    <hr><!-- linea-->
+    <section>
+        <h3 id="contenedorRespuestas"></h3>
+        <div class="estilo1">
+            <h4 id= "titulo1">RESPUESTAS CORRECTAS</h4>
+            <hr>
+            <P id="correctas" ></P>
+        </div>
+        <div class="estilo2">
+            <h4 id= "titulo2">RESPUESTAS INCORRECTAS</h4>
+            <hr>
+            <p id="incorrectas"></p>
+        </div>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+h1 {
+    font-size: 100px;
+    text-align: center;
+}
+h2 {
+    float: right;
+    
+    margin-right: 50px;
+}
+
+h3 {
+    text-align: center;
+}
+
+body {
+    font-family: 'Sunflower', sans-serif;
+}
+
+section {
+    text-align: center;
+    background-color: coral;
+    max-width: 100%; /*ancho*/
+    height: 100%;
+    border: 5px solid #000000;
+}
+
+div {
+    text-align: center;
+    display: inline-block;
+    margin: 5%;
+    width: 300px;
+    height: 400px;
+}
+
+/*#estilo2{
+    float: right;
+    width: 300px;
+    margin: 300px;
+}
+
+#estilo1{
+    float: left;
+    width: 300px;
+    margin: 300px;
+    
+}*/
