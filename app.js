@@ -1,12 +1,15 @@
 alert("hola");
 /*Se declara variable uName para guardar el nombre del usuario*/
+do {
 var uName = prompt("Ingresa tu nombre").toUpperCase();
+} while (!uName || uName == " ");
 
+/*var uName = prompt("Ingresa tu nombre").toUpperCase();
 //Se valida que el usuario ingrese una palabra//
 while (uName == false || uName === " ") {
     alert("no has escrito un nombre, intentalo de nuevo");
     uName = prompt("Ingresa tu nombre").toUpperCase();
-} 
+} */
 
 /*se declara userName para remplasar el contenido del id 'nombre' 
 y se remplaza el contenido del Id 'nombre'por lo ingresado por el usuario*/
